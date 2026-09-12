@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Official FáGlè design tokens */
+  --fagle-primary: #143a12;
+  --fagle-leaf: #2e521c;
+  --fagle-olive: #526e2b;
+  --fagle-gold: #a57718;
+  --fagle-sun: #e1a733;
+  --fagle-cream: #fefdf6;
+}
+
+html,
+body {
+  background-color: var(--fagle-cream);
+  color: var(--fagle-primary);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(20, 58, 18, 0.25);
+  border-radius: 999px;
+}
+
+@media (max-width: 480px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}

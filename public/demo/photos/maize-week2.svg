@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A7F3D0"/>
+      <stop offset="100%" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <linearGradient id="soil2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#sky2)"/>
+  <rect y="360" width="600" height="240" fill="url(#soil2)"/>
+  <g stroke="#5c2e0a" stroke-width="4">
+    <path d="M0 400 Q150 380 300 400 T600 400"/>
+    <path d="M0 460 Q150 440 300 460 T600 460"/>
+    <path d="M0 520 Q150 500 300 520 T600 520"/>
+  </g>
+  <g fill="#10B981">
+    <path d="M100 400 C90 360 100 330 110 310 C120 330 130 360 120 400 Z"/>
+    <path d="M220 460 C210 420 220 390 230 370 C240 390 250 420 240 460 Z"/>
+    <path d="M340 400 C330 360 340 330 350 310 C360 330 370 360 360 400 Z"/>
+    <path d="M460 460 C450 420 460 390 470 370 C480 390 490 420 480 460 Z"/>
+  </g>
+  <text x="300" y="60" font-family="sans-serif" font-size="24" fill="#065f46" text-anchor="middle" font-weight="bold">AgroMind Demo Photo</text>
+  <text x="300" y="90" font-family="sans-serif" font-size="16" fill="#047857" text-anchor="middle">Maize Plot A &#8212; Germination &#8212; Week 2</text>
+</svg>
